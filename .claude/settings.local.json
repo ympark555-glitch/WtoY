@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"list\\\\[dict\\\\]\" \"/c/Users/pymsa/Desktop/project/W to Y/src/gui/tabs/\"*.py)",
+      "Bash(grep -n \"dict\\\\[str, str\\\\]\" \"/c/Users/pymsa/Desktop/project/W to Y/src/gui/components/\"*.py)",
+      "Bash(python3 -m py_compile \"/c/Users/pymsa/Desktop/project/W to Y/src/gui/app.py\")",
+      "Bash(grep -n \"from __future__\" \"/c/Users/pymsa/Desktop/project/W to Y/src/gui/tabs/\"*.py \"/c/Users/pymsa/Desktop/project/W to Y/src/gui/components/\"*.py \"/c/Users/pymsa/Desktop/project/W to Y/src/gui/app.py\")",
+      "Bash(grep -n \"except.*Exception\\\\|except.*Error\" \"/c/Users/pymsa/Desktop/project/W to Y/src/gui/tabs/\"*.py \"/c/Users/pymsa/Desktop/project/W to Y/src/gui/components/\"*.py)",
+      "Bash(xargs grep -l \"except.*Exception\")",
+      "Bash(find '/c/Users/pymsa/Desktop/project/W to Y/src/gui' -name '*.py' -type f -exec grep -l 'except.*Exception' {} ;)",
+      "Bash(python -c \":*)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c \":*)",
+      "Bash(pip install beautifulsoup4 lxml langdetect openai edge-tts moviepy ffmpeg-python Pillow pydub google-api-python-client google-auth-httplib2 google-auth-oauthlib scikit-image numpy python-dotenv PyQt6 schedule)",
+      "Bash(where python)",
+      "Bash(python -m pip install beautifulsoup4 lxml langdetect openai edge-tts moviepy ffmpeg-python Pillow pydub google-api-python-client google-auth-httplib2 google-auth-oauthlib scikit-image numpy python-dotenv PyQt6 schedule)",
+      "Bash(python -m pip install openai python-dotenv PyQt6 google-api-python-client google-auth-httplib2)",
+      "Bash(where ffmpeg)",
+      "Bash(ffmpeg -version)",
+      "Bash(where ffprobe)",
+      "Bash(ollama list)"
+    ]
+  }
+}

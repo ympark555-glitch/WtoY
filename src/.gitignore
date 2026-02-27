@@ -1,0 +1,33 @@
+# 환경변수 / 시크릿
+.env
+client_secret*.json
+token*.json
+
+# 빌드 임시 파일
+build/
+dist/
+*.spec
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 데이터베이스
+database/*.db
+
+# 출력 결과물
+output/
+
+# 이미지/오디오 캐시
+assets/bgm/
+
+# 체크포인트
+output/.checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
